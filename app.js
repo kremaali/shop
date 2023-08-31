@@ -11,6 +11,7 @@ app.use('/api', customerRoutes);
 app.use('/api', orderRoutes);
 app.use('/api', productRoutes);
 
+//TODO: add app stuff, testing SHA
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
